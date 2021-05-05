@@ -12,7 +12,7 @@ Me he limitado a analizar la evolución de la pandemia y el grado de afectación
 * Análisis de datos: La mayoría de los datos de los que disponía eran cuantitativos por lo que he realizado operaciones de `agrupación`, `conteo`, `sumatorio`. Todo el análisis y tratamiento de datos se puede ver en el notebook `COVID19`   
 * Presentación de los resultados obtenidos en el formato PowerPoint en el archivo `Presentación COVID`
 
-Todo el código está escrito en Python utilizando `notebooks`.
+Todo el código está escrito en Python utilizando `notebooks`. Las gráficas generadas, la mayor parte de ellas interactivas, se pueden visualizar en la carpeta `img`.
 
 <img src="img/covid.png" width="600">
 
