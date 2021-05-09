@@ -10,9 +10,11 @@ Me he limitado a analizar la evolución de la pandemia y el grado de afectación
 
 * Recopilación de información de las páginas web indicadas anteriormente
 * Análisis de datos: La mayoría de los datos de los que disponía eran cuantitativos por lo que he realizado operaciones de `agrupación`, `conteo`, `sumatorio`. Todo el análisis y tratamiento de datos se puede ver en el notebook `COVID19`   
-* Presentación de los resultados obtenidos en el formato PowerPoint en el archivo `Presentación COVID`
+* Presentación de los resultados obtenidos en streamlit. El código está en la carpeta `streamlit`. Para ver la ejecución en streamlit, una vez abiertos los notebooks, hay que poner en la terminal `streamlit run main.py`
 
-Todo el código está escrito en Python utilizando `notebooks`. Las gráficas generadas, la mayor parte de ellas interactivas, se pueden visualizar en la carpeta `img`.
+Todo el código está escrito en Python utilizando `notebooks` de Jupyter y el IDE de PyCharm para streamlit. 
+
+Las gráficas generadas, la mayor parte de ellas interactivas, se pueden visualizar en la carpeta `img`.
 
 <img src="img/covid.png" width="600">
 

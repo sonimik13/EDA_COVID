@@ -159,3 +159,8 @@ def gráficos():
         graph_map1_acum = gph.graph_map1_acum(gph.df6)
         folium_static(graph_map1_acum)
 
+    with st.beta_expander('Número de defunciones los últimos 14 y 7 días'):
+
+        graph_def_num = gph.graph_def_num(gph.df7)
+        st.plotly_chart(graph_def_num)
+

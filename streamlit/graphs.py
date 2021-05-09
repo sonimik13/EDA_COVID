@@ -741,3 +741,44 @@ def graph_map1_acum(df6):
     folium.LayerControl().add_to(mapa)
 
     return mapa
+
+df7 = pd.read_csv('data/casos_def1.csv')
+
+def graph_def_num(df7):
+    # Ordeno de menor a mayor por la columna 'número de defunciones a 14 días'
+    casos_def2_mayor = df7.sort_values(['número de defunciones a 14 días'])
+
+    '''
+    Gráfica de defunciones del COVID-19 en los últimos 14 y 7 días para cada CCAA
+    '''
+    x = casos_def2_mayor.comunidad
+
+    trace1 = {
+        'x': x,
+        'y': casos_def2_mayor['número de defunciones a 14 días'],
+        'name': '14 días',
+        'type': 'bar'
+    }
+
+    trace2 = {
+        'x': x,
+        'y': casos_def2_mayor['número de defunciones a 7 días'],
+        'name': '7 días',
+        'type': 'bar'
+    }
+
+    data = [trace1, trace2]
+    layout = {'height': 600, 'width': 730,
+#        'title': 'Número de defunciones últimos días CCAA',
+        'xaxis': {'title': 'CCAA'}
+    }
+
+    graph_def_num = go.Figure(data=data, layout=layout)
+    graph_def_num.update_xaxes(
+            tickangle= 45
+            )
+
+    return graph_def_num
+
+
+
