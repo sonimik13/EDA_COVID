@@ -10,4 +10,4 @@ Todo el código está escrito en Python utilizando `notebooks` de Jupyter y PyCh
 
 Las gráficas generadas, la mayor parte de ellas interactivas, se pueden visualizar en la carpeta `img`.
 
-**Palabras clave** (Python, Análisis exploratorio de datos, Streamlit, Matplotly, Plotly, Seaborn, Pandas)
+**Palabras clave** (Python, Pandas, Análisis exploratorio de datos, Streamlit, Matplotly, Plotly, Seaborn, Folium)
